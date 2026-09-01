@@ -28,16 +28,6 @@ bash model_test/O3DVQA/run_inference.sh
 Set `LIMIT=-1` for a complete inference. The response file is
 `$RESULT_DIR/${MODEL_NAME}_responses.json`, and `--resume` skips completed IDs.
 
-Optional judge evaluation:
-
-```bash
-RESULT_PATH=/path/to/model_responses.json \
-DATA_JSON=/path/to/Test_v2.json \
-OPENAI_API_KEY=your-key \
-BASE_URL=https://your-openai-compatible-endpoint/v1 \
-JUDGE_MODEL=your-judge-model \
-bash model_test/O3DVQA/run_evaluation.sh
-```
 
 Never commit API keys or result files.
 
