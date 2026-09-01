@@ -3,9 +3,12 @@
 Conda environment: `aircopbench-test`, defined in
 [`../envs/aircopbench.yml`](../envs/aircopbench.yml).
 
-Required data:
+Included annotations:
 
 - `Real2_VQA_test.json`, `Sim3_VQA_test.json`, `Sim5_VQA_test.json`, and `Sim6_VQA_test.json`
+
+Required external data:
+
 - Extracted `AirCopBench/Real_2_UAVs`, `Sim_3_UAVs`, `Sim_5_UAVs`, and `Sim_6_UAVs` image trees
 - A local Hugging Face-compatible Qwen vision-language checkpoint
 
@@ -13,7 +16,7 @@ Smoke test:
 
 ```bash
 MODEL_PATH=/path/to/model \
-ANNOTATIONS_DIR=/path/to/annotations \
+ANNOTATIONS_DIR=model_test/AircopBench \
 IMAGES_ROOT=/path/to/AircopBench \
 OUTPUT_DIR=/path/to/output \
 GPU=0 LIMIT=1 \
@@ -24,5 +27,4 @@ Remove `LIMIT=1` or set `LIMIT=-1` for the complete evaluation. The runner
 always enables `--resume`; completed sample IDs in `results.jsonl` are skipped.
 Outputs include row-level `results.json`/`results.jsonl` and aggregate
 `scores.json`.
-
 

@@ -1,0 +1,3383 @@
+[
+  {
+    "id": "4-40m-1629093666833511680.png_MDMT_CA_UAV3_18",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629093666833511680.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629093666833511680-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629093666833511680-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629093666833511680-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629093666833511680-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629093666833511680-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of object detection challenges in this UAV3 image? A. High image noise caused by sensor failure B. Occlusion by dense tree placement C. Low detail resolution from distant camera positioning D. Overexposure due to excessive sunlight"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624114615476825088.png_MDMT_OC_UAV2_13",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624114615476825088.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624114615476825088-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624114615476825088-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624114615476825088-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624114615476825088-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624114615476825088-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV2's perspective? A. 21 B. 20 C. 18 D. 19"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629210769328715776.png_MDMT_UA_UAV3_29",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629210769328715776.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629210769328715776-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629210769328715776-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629210769328715776-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629210769328715776-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629210769328715776-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV3 usable for target perception tasks? A. Yes, highly usable B. Yes, barely usable C. Yes, partially usable D. No, not usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107791289598720.png_MDMT_CA_UAV5_8",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107791289598720.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107791289598720-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107791289598720-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107791289598720-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107791289598720-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107791289598720-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the main factor reducing visibility of objects in the lower center of the image? A. Shadows cast by tall structures B. Overexposure caused by bright sunlight C. Blur due to a fast camera motion D. Occlusion by nearby trees"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629187328497839616.png_MDMT_SD_UAV2_25",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629187328497839616.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629187328497839616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629187328497839616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629187328497839616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629187328497839616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629187328497839616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the relationship between the forested area and the surrounding roads in this scene? A. The forested area is directly adjacent to a single road without any intersections. B. The forested area is surrounded by multiple roads forming a loop. C. The forested area is scattered between distant and disconnected roads. D. The forested area is isolated with no roads nearby."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_Sim5_when2col_UAV4_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "When to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nShould UAV4 collaborate with other UAVs to address need for collaboration due to environmental factors across UAVs? A. Yes, due to poor lighting conditions in multiple views B. No, lighting is adequate across all UAVs C. Yes, due to low image resolution in some views D. No, the environment is clear for all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629210769328715776.png_MDMT_OG_UAV5_28",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629210769328715776.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629210769328715776-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629210769328715776-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629210769328715776-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629210769328715776-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629210769328715776-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhere is the gray car located relative to the blue car in this scene? A. The gray car is ahead of the blue car in the same lane B. The gray car is behind the blue car but in a different lane C. The gray car is adjacent to the blue car in the neighboring lane D. The gray car is directly in front of the blue car in a parallel lane"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_OG_UAV4_43",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the position of the large white building relative to the group of four pink apartment buildings in the scene? A. The white building is to the left of the pink apartment buildings across a road B. The white building is directly behind the pink apartment buildings separated by green trees C. The white building is in front of the pink apartment buildings along the main road D. The white building is diagonally opposite to the pink apartment buildings across an intersection"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628412222245574656.png_Sim5_what2col_UAV4_37",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628412222245574656.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628412222245574656-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628412222245574656-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628412222245574656-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628412222245574656-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628412222245574656-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific object information should UAV4 collaborate on to improve vehicle tracking accuracy across views? A. Details of the movement and position of vehicles near the corner intersections B. Information about the types of buildings near the road based on architectural patterns C. Color and visibility details of vehicles shown only in UAV4's view D. Presence of pedestrians across the green space in the foreground area"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629187328497839616.png_Sim5_who2col_UAV4_25",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629187328497839616.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629187328497839616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629187328497839616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629187328497839616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629187328497839616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629187328497839616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV4 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV2 B. None (no need for collaboration) C. UAV3 D. UAV1"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107811717034496.png_MDMT_SC_9",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107811717034496.png",
+    "question_type": "Scene Comparison",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107811717034496-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107811717034496-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107811717034496-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107811717034496-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107811717034496-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective provides better visibility of the residential area layout? A. UAV1 provides the clearest view of the residential area with distinct details like houses and green spaces. B. UAV2 provides the clearest view of the residential area, showing houses and streets more prominently. C. UAV3 provides the best visibility of the residential area due to its higher altitude perspective. D. UAV4 provides the clearest view by emphasizing the overall grid layout of the residential area."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171377571127296.png_MDMT_OR_UAV1_16",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171377571127296.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171377571127296-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171377571127296-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171377571127296-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171377571127296-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171377571127296-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of prominent non-vehicle object is visible near the center of the image? A. A pedestrian B. A cyclist C. A bus stop structure D. A streetlight pole"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_MDMT_OC_UAV2_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV2's perspective? A. 59 B. 56 C. 53 D. 54"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629204982295740416.png_Sim5_who2col_UAV3_28",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629204982295740416.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629204982295740416-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629204982295740416-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629204982295740416-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629204982295740416-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629204982295740416-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV3 collaborate with for collaboration partner for specific object data across UAVs? A. UAV2 B. None (no need for collaboration) C. UAV5 D. UAV4"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_MDMT_OC_UAV1_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV1's perspective? A. 39 B. 40 C. 37 D. 42"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628248254973832704.png_MDMT_SD_UAV2_34",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628248254973832704.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628248254973832704-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628248254973832704-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628248254973832704-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628248254973832704-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628248254973832704-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of setting is depicted in the image based on the layout of the buildings, roads, and vegetation? A. A densely packed suburban neighborhood with medium-sized buildings and scattered vegetation B. A rural area with vast open fields and sparse buildings C. An urban area featuring a mix of tall skyscrapers, structured roads, and patches of greenery D. An industrial zone with factories and warehouses surrounded by roads"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629093666833511680.png_MDMT_OG_UAV5_17",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629093666833511680.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629093666833511680-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629093666833511680-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629093666833511680-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629093666833511680-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629093666833511680-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the position of the smaller house relative to the larger house near the water edge? A. The smaller house is located uphill and further from the water compared to the larger house. B. The smaller house is positioned downhill and closer to the water compared to the larger house. C. The smaller house is beside the larger house, equidistant from the water. D. The smaller house is further away from the trees compared to the larger house."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105318731299328.png_Sim5_why2col_UAV2_6",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105318731299328.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105318731299328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105318731299328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105318731299328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105318731299328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105318731299328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the main reason UAV2 should collaborate with other UAVs in this scenario? A. To compensate for the small and distant target size visible in UAV2's view B. To synchronize overlapping data from identical regions C. To improve visibility of shadowed objects in UAV2's perspective D. To generate a shared panoramic image across multiple perspectives"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_MDMT_QA_UAV1_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV1? A. 2 B. 1 C. 3 D. 5"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623937902840830464.png_MDMT_OC_UAV5_4",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623937902840830464.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623937902840830464-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623937902840830464-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623937902840830464-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623937902840830464-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623937902840830464-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV5's perspective? A. 7 B. 12 C. 9 D. 8"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105298882875904.png_MDMT_QA_UAV2_5",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105298882875904.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105298882875904-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105298882875904-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105298882875904-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105298882875904-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105298882875904-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV2? A. 5 B. 3 C. 4 D. 1"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628497853920271360.png_MDMT_SD_UAV4_45",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628497853920271360.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628497853920271360-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628497853920271360-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628497853920271360-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628497853920271360-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628497853920271360-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary environmental context depicted in this scene? A. A densely populated urban area with skyscrapers B. A suburban area with buildings and open spaces C. A remote rural area dominated by farmland D. A forested region with no human structures"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_SD_UAV4_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of setting does the environmental layout in this scene primarily represent? A. A suburban area with a mix of residential buildings and green spaces B. A dense urban area with tall skyscrapers dominating the landscape C. A rural area with open fields and sporadic buildings D. An industrial area with warehouses and factories"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629211736846056704.png_Sim5_who2col_UAV4_30",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629211736846056704.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629211736846056704-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629211736846056704-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629211736846056704-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629211736846056704-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629211736846056704-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV4 collaborate with for collaboration partner for specific object data across UAVs? A. UAV3 B. None (no need for collaboration) C. UAV1 D. UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628423268493889280.png_Sim5_why2col_UAV4_40",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628423268493889280.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628423268493889280-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628423268493889280-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628423268493889280-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628423268493889280-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628423268493889280-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy is it necessary for UAV4 to collaborate with other UAVs based on the image and annotation data? A. To enhance visibility of small or distant targets that are clearer in other views B. To ensure synchronization between all UAVs in the area C. To compensate for low altitude limitations that reduce field of view D. To reduce redundant image data captured by all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_Sim5_who2col_UAV5_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV5 collaborate with for collaboration partner for specific object data across UAVs? A. UAV3 B. None (no need for collaboration) C. UAV4 D. UAV2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_MDMT_SD_UAV3_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the relationship between the vehicles and the road environment in this scene? A. Vehicles are parked along the road edges, with wide space between lanes B. Vehicles are moving in dense traffic along a curved multi-lane road C. Vehicles are scattered on the road without following lanes D. Vehicles are stationary on a single-lane road surrounded tightly by buildings"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629109485061830400.png_MDMT_OC_UAV3_23",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629109485061830400.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629109485061830400-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629109485061830400-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629109485061830400-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629109485061830400-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629109485061830400-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV3's perspective? A. 26 B. 28 C. 30 D. 29"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107791289598720.png_Sim5_what2col_UAV2_8",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107791289598720.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107791289598720-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107791289598720-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107791289598720-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107791289598720-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107791289598720-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific object information should UAV2 share with other UAVs to enhance scene understanding across multi-UAV views? A. Positions and movements of vehicles passing under the elevated railway from UAV2's perspective B. Spatial layout and types of buildings near the railway area visible in UAV2’s view C. Details of pedestrian activity near the railway visible only to UAV2 D. Traffic light locations and status at intersections visible to UAV2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_MDMT_OP_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Observing Posture",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective provides a clearer understanding of the spatial layout of the apartment complex relative to nearby roads? A. UAV1 provides a clearer view due to its broader angle showing surrounding areas. B. UAV2 provides a clearer view due to its close focus directly above the apartment complex. C. Both UAVs equally reveal the spatial layout of the apartment complex and nearby roads. D. Neither UAV provides a clear understanding of the spatial layout."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936250982352640.png_MDMT_OR_UAV1_3",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936250982352640.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936250982352640-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936250982352640-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936250982352640-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936250982352640-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936250982352640-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of non-vehicle object is most prominent in the scene shown from UAV1? A. Residential buildings B. Tall office complexes C. Public park structures D. Industrial warehouses"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629095239127567616.png_MDMT_OG_UAV2_18",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629095239127567616.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629095239127567616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629095239127567616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629095239127567616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629095239127567616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629095239127567616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial position of the red truck relative to the building with flat roofs in the parking area? A. The red truck is parked behind the building with flat roofs near the corner B. The red truck is positioned to the right side of the building with flat roofs, in the adjacent road C. The red truck is parked on the left side of the building with flat roofs, near the parking spaces D. The red truck is directly in front of the building with flat roofs, closest to the parking lot entrance"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171352874600448.png_MDMT_OR_UAV5_15",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171352874600448.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171352874600448-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171352874600448-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171352874600448-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171352874600448-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171352874600448-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of vehicle is visible on the road near the middle portion of the image? A. A black sedan B. A red sports car C. A gray minivan D. A white pickup truck"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629091952438388224.png_Sim5_who2col_UAV3_17",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629091952438388224.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629091952438388224-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629091952438388224-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629091952438388224-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629091952438388224-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629091952438388224-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV3 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV4 B. None (no need for collaboration) C. UAV1 D. UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_MDMT_OR_UAV3_41",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of vehicle is visible on the road in this scene? A. A black sedan B. A red SUV C. A white van D. A gray truck"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629211736846056704.png_Sim5_who2col_UAV2_30",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629211736846056704.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629211736846056704-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629211736846056704-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629211736846056704-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629211736846056704-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629211736846056704-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV2 collaborate with for collaboration partner for specific object data across UAVs? A. UAV3 B. None (no need for collaboration) C. UAV4 D. UAV1"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_Sim5_why2col_UAV5_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV5 collaborate with other UAVs in this environment? A. To overcome occlusion issues affecting the visibility of objects B. To ensure faster data transfer between UAVs C. To reduce overlaps in object detection across multiple views D. To improve positioning accuracy of UAV5 based on other UAV data"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_Sim5_why2col_UAV4_41",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV4 collaborate with other UAVs in this scene? A. To resolve occlusion caused by dense trees blocking building views B. To obtain higher resolution images of the road infrastructure C. To provide detailed information on distant regions outside UAV4's field of view D. To track vehicle movement from multiple perspectives for improved motion analysis"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_OG_UAV1_45",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object is directly across the intersection from the row of apartment buildings with four towers? A. The large square building with surrounding trees B. The small set of residential houses near the forest C. The parking lot with vehicles D. The tall apartment complex with rectangular courtyards"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629096982293769472.png_Sim5_who2col_UAV1_20",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629096982293769472.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629096982293769472-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629096982293769472-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629096982293769472-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629096982293769472-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629096982293769472-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV1 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV4 B. None (no need for collaboration) C. UAV3 D. UAV2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_Sim5_who2col_UAV2_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV2 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV3 B. None (no need for collaboration) C. UAV1 D. UAV4"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936157944367872.png_Sim5_what2col_UAV4_1",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936157944367872.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936157944367872-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936157944367872-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936157944367872-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936157944367872-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936157944367872-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific object information should UAV4 collaborate on with other UAVs to enhance multi-view perception? A. Precise positions and movements of the vehicles near the roundabout for accurate traffic analysis B. Detailed appearance and orientation of the trees along the middle road for environmental modeling C. Locations and identities of stationary objects near the residential area for scene reconstruction D. Visibility and shadow effects of buildings in all UAV views for lighting condition estimation"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105298882875904.png_MDMT_OR_UAV2_5",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105298882875904.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105298882875904-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105298882875904-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105298882875904-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105298882875904-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105298882875904-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of non-vehicle object is prominently visible near the buildings? A. Streetlights B. Bicycles C. Trash bins D. Pedestrians"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628412914992445440.png_MDMT_QA_UAV2_38",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628412914992445440.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628412914992445440-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628412914992445440-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628412914992445440-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628412914992445440-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628412914992445440-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV2? A. 5 B. 2 C. 4 D. 1"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629095239127567616.png_MDMT_OC_UAV1_19",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629095239127567616.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629095239127567616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629095239127567616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629095239127567616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629095239127567616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629095239127567616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV1's perspective? A. 20 B. 17 C. 18 D. 16"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_OR_UAV3_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of vehicle is most prominently visible near the intersection in the lower-left area of the scene? A. A blue sedan B. A green pickup truck C. A red sports car D. A yellow bus"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624106452866560512.png_MDMT_OG_UAV4_7",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624106452866560512.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624106452866560512-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624106452866560512-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624106452866560512-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624106452866560512-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624106452866560512-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the position of the modern fountain relative to the cluster of four identical houses? A. The fountain is to the left of the houses on the main road in the traffic circle B. The fountain is directly behind the houses in a residential parking lot C. The fountain is located in front of the houses within a square park area D. The fountain is to the right of the houses near a multi-lane intersection"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_MDMT_CA_UAV3_41",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary factor affecting object detection in this image? A. Overexposure caused by excessive sunlight B. Occlusion by foreground trees C. Shadows obstructing object visibility D. Blurring due to motion of the UAV"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629187328497839616.png_MDMT_OG_UAV1_25",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629187328497839616.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629187328497839616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629187328497839616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629187328497839616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629187328497839616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629187328497839616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich vehicle is positioned closest to the intersection located at the center of the scene? A. A black car moving on the upper-left road B. A yellow truck near the center of the intersection C. A red car traveling on the upper-right road D. A purple car on the lower road beneath the intersection"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629201000237519360.png_MDMT_OM_UAV5_27",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629201000237519360.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629201000237519360-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629201000237519360-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629201000237519360-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629201000237519360-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629201000237519360-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the group of pine trees near the cliff edge in UAV5? A. The group of pine trees near the fenced residential area in UAV3 B. The group of pine trees seen beyond the red-roofed house in UAV4 C. The group of pine trees beside the large roadway curve in UAV2 D. The group of pine trees directly overlooking the riverbank in UAV1"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936250982352640.png_MDMT_OR_UAV3_3",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936250982352640.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936250982352640-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936250982352640-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936250982352640-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936250982352640-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936250982352640-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of vehicle is parked closest to the stone wall on the left side of the road? A. A white sedan B. A black SUV C. A beige minivan D. A red pickup truck"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628422473693368320.png_MDMT_OC_UAV2_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628422473693368320.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628422473693368320-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628422473693368320-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628422473693368320-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628422473693368320-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628422473693368320-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV2's perspective? A. 34 B. 36 C. 32 D. 33"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628412222245574656.png_MDMT_OM_UAV1_37",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628412222245574656.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628412222245574656-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628412222245574656-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628412222245574656-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628412222245574656-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628412222245574656-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the stone structure located near the curved road in UAV3? A. The stone structure now seen from the front with trees in the background in UAV4 B. The stone structure located closer to a row of identical houses in UAV1 C. The stone structure now seen with palm trees surrounding it in UAV3 D. The stone structure located next to cylindrical skyscrapers in UAV2"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628410764252718848.png_MDMT_UA_UAV5_36",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628410764252718848.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628410764252718848-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628410764252718848-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628410764252718848-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628410764252718848-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628410764252718848-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV5 usable for target perception tasks? A. No, not usable B. Yes, highly usable C. Yes, barely usable D. Yes, partially usable"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105298882875904.png_MDMT_SC_5",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105298882875904.png",
+    "question_type": "Scene Comparison",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105298882875904-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105298882875904-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105298882875904-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105298882875904-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105298882875904-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective offers a clearer view of the elevated railway structure's surroundings? A. UAV1 shows the elevated railway with adjacent buildings and vehicles B. UAV3 provides the clearest view of the elevated railway and its adjacent greenery C. UAV4 provides the clearest view of the elevated railway and traffic concentration nearby D. UAV5 does not show the elevated railway at all"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629096982293769472.png_Sim5_who2col_UAV5_20",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629096982293769472.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629096982293769472-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629096982293769472-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629096982293769472-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629096982293769472-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629096982293769472-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV5 collaborate with for collaboration partner for specific object data across UAVs? A. UAV4 B. None (no need for collaboration) C. UAV2 D. UAV3"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624106452866560512.png_MDMT_UA_UAV1_7",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624106452866560512.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624106452866560512-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624106452866560512-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624106452866560512-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624106452866560512-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624106452866560512-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV1 usable for target perception tasks? A. Yes, highly usable B. Yes, barely usable C. Yes, partially usable D. No, not usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624114615476825088.png_MDMT_OG_UAV2_12",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624114615476825088.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624114615476825088-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624114615476825088-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624114615476825088-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624114615476825088-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624114615476825088-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial position of the parked black car relative to the nearby red car in this scene? A. The black car is parked in a lane next to the red car B. The black car is ahead of the red car in the same lane C. The black car is parked in the same lane behind the red car D. The black car is on the opposite side of the road from the red car"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623937902840830464.png_MDMT_UA_UAV2_4",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623937902840830464.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623937902840830464-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623937902840830464-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623937902840830464-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623937902840830464-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623937902840830464-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV2 usable for target perception tasks? A. Yes, highly usable B. No, not usable C. Yes, partially usable D. Yes, barely usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107811717034496.png_MDMT_OR_UAV5_9",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107811717034496.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107811717034496-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107811717034496-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107811717034496-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107811717034496-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107811717034496-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of non-vehicle object is most prominently visible along the sidewalk in the scene? A. Street lamps B. Pedestrians C. Bicycles D. Trash bins"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628412914992445440.png_Sim5_what2col_UAV2_38",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628412914992445440.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628412914992445440-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628412914992445440-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628412914992445440-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628412914992445440-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628412914992445440-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific scene context information should UAV2 share with other UAVs to enhance understanding of the urban area? A. Vehicle movement patterns along parallel roads visible in UAV2 B. Structural details of the circular building visible nearby C. Spatial arrangement of green spaces across views D. Traffic density variations captured from multiple UAV views"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629095239127567616.png_MDMT_OM_UAV4_19",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629095239127567616.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629095239127567616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629095239127567616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629095239127567616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629095239127567616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629095239127567616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the red sedan parked near the curved road in front of small houses in UAV4's view? A. The red sedan now seen driving along the highway adjacent to the forest in UAV2 B. The red sedan parked near a small parking lot beside shops in UAV3 C. The blue pickup truck parked at the curb near the apartment building in UAV1 D. The yellow van passing by the curve in UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936183309908992.png_Sim5_why2col_UAV3_2",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936183309908992.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936183309908992-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936183309908992-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936183309908992-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936183309908992-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936183309908992-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV3 collaborate with other UAVs in this scenario? A. To capture objects in the scene that are currently out of UAV3's field of view B. To detect lighting variations across different areas in the scene C. To avoid redundant overlap of information from multiple UAV perspectives D. To reduce the energy consumption during operation by dividing tasks"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171352874600448.png_MDMT_QA_UAV3_15",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171352874600448.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171352874600448-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171352874600448-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171352874600448-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171352874600448-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171352874600448-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV3? A. 5 B. 1 C. 3 D. 2"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105298882875904.png_MDMT_UA_UAV2_5",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105298882875904.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105298882875904-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105298882875904-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105298882875904-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105298882875904-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105298882875904-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV2 usable for target perception tasks? A. No, not usable B. Yes, usable C. Yes, highly usable D. Yes, partially usable"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628423268493889280.png_MDMT_CA_UAV2_40",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628423268493889280.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628423268493889280-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628423268493889280-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628423268493889280-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628423268493889280-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628423268493889280-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of reduced visibility in this UAV2 image? A. Partial occlusion by trees near the buildings B. Motion blur caused by camera instability C. Strong shadows due to uneven lighting D. Overlapping objects reducing distinguishability"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_MDMT_OR_UAV4_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich type of vehicle is most prominently visible near the center of the roadway in this scene? A. A green SUV B. A red car C. A blue truck D. A yellow motorcycle"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624108967590171392.png_MDMT_CA_UAV2_11",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624108967590171392.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624108967590171392-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624108967590171392-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624108967590171392-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624108967590171392-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624108967590171392-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary factor affecting accurate object detection in this aerial scene? A. Motion blur caused by high-speed UAV movement B. Underexposure due to insufficient lighting C. Partial occlusion caused by tall buildings D. Distorted perspective from high-altitude camera angle"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629223716469174016.png_MDMT_UA_UAV4_32",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629223716469174016.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629223716469174016-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629223716469174016-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629223716469174016-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629223716469174016-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629223716469174016-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV4 usable for target perception tasks? A. Yes, usable B. Yes, highly usable C. Yes, partially usable D. Yes, barely usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_Sim5_why2col_UAV2_41",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV2 collaborate with other UAVs in this environment? A. To overcome occlusion caused by dense tree coverage in the area B. To ensure accurate mapping of building structures visible from UAV2’s view C. To compensate for lack of visibility of the road intersections in UAV2’s images D. To avoid redundancy by reducing the overlap of captured images"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628483886999027712.png_MDMT_UA_UAV5_42",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628483886999027712.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628483886999027712-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628483886999027712-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628483886999027712-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628483886999027712-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628483886999027712-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV5 usable for target perception tasks? A. Yes, highly usable B. Yes, partially usable C. Yes, barely usable D. No, not usable"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628230839454745344.png_Sim5_why2col_UAV3_33",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628230839454745344.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628230839454745344-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628230839454745344-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628230839454745344-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628230839454745344-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628230839454745344-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV3 collaborate with other UAVs in this scenario? A. To overcome partial occlusion of a historical building seen in UAV3's view B. To improve mapping accuracy by reducing redundant views C. To detect objects hidden behind vegetation across UAV perspectives D. To efficiently identify structural integrity issues in the scene"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629204982295740416.png_MDMT_SD_UAV1_28",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629204982295740416.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629204982295740416-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629204982295740416-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629204982295740416-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629204982295740416-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629204982295740416-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich of the following most accurately describes the environmental setting in this scene? A. A commercial area adjacent to a highway and surrounded by grassy terrain B. A rural landscape with isolated buildings and sparse vehicle traffic C. An industrial zone with large facilities and heavy vehicle congestion D. A dense urban area with skyscrapers and crowded pedestrian crossings"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629095239127567616.png_MDMT_CA_UAV2_19",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629095239127567616.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629095239127567616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629095239127567616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629095239127567616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629095239127567616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629095239127567616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of detection difficulties for parking lot vehicles in this scene? A. Uneven lighting with shadows across the parking lot B. Heavy noise from image compression C. Occlusion by large nearby buildings D. Severe motion blur due to UAV movement"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_QA_UAV3_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV3? A. 1 B. 2 C. 4 D. 3"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628230839454745344.png_MDMT_CA_UAV1_33",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628230839454745344.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628230839454745344-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628230839454745344-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628230839454745344-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628230839454745344-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628230839454745344-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of reduced visibility in this image taken by UAV1? A. Shadowing effects caused by tall buildings B. Occlusion from dense tree coverage C. Low resolution due to high altitude of UAV D. Overexposure from sunlight on reflective surfaces"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105298882875904.png_MDMT_OG_UAV5_5",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105298882875904.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105298882875904-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105298882875904-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105298882875904-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105298882875904-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105298882875904-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhere is the red car positioned relative to the black car in this scene? A. The red car is directly behind the black car in the same lane B. The red car is ahead of the black car but in a different lane C. The red car is parked to the right of the black car on the sidewalk D. The red car is passing the black car in the opposite direction"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628497853920271360.png_MDMT_SD_UAV1_45",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628497853920271360.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628497853920271360-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628497853920271360-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628497853920271360-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628497853920271360-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628497853920271360-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of environment is shown in the scene captured by UAV1? A. A dense urban area with skyscrapers and industrial buildings B. A suburban area featuring mid-rise buildings and organized streets C. A rural area with fields and scattered homes D. A recreational park with open green spaces and walking paths"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624108967590171392.png_Sim5_what2col_UAV3_11",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624108967590171392.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624108967590171392-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624108967590171392-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624108967590171392-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624108967590171392-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624108967590171392-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat object-specific information should UAV3 share with other UAVs to improve perception of the traffic scene? A. The positions and speeds of the cars traveling along the central street near the tall building B. Details of the road signs and markings captured near the intersection roundabout C. The color and type of cars parked or moving near the residential and suburban area D. The exact locations of traffic lights visible near the tall glass building and intersections"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628422473693368320.png_MDMT_OR_UAV2_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628422473693368320.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628422473693368320-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628422473693368320-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628422473693368320-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628422473693368320-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628422473693368320-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich type of vehicle is prominently visible driving on the central multi-lane road in the scene? A. A yellow sedan B. A green SUV C. A white truck D. A blue motorbike"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171352874600448.png_MDMT_UA_UAV2_15",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171352874600448.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171352874600448-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171352874600448-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171352874600448-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171352874600448-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171352874600448-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV2 usable for target perception tasks? A. No, not usable B. Yes, highly usable C. Yes, partially usable D. Yes, barely usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628484472543340288.png_MDMT_UA_UAV1_43",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628484472543340288.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628484472543340288-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628484472543340288-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628484472543340288-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628484472543340288-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628484472543340288-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV1 usable for target perception tasks? A. Yes, usable B. Yes, highly usable C. Yes, partially usable D. No, not usable"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628483886999027712.png_Sim5_why2col_UAV2_42",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628483886999027712.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628483886999027712-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628483886999027712-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628483886999027712-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628483886999027712-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628483886999027712-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy is collaboration important for UAV2 based on its current view and annotations? A. To enhance the visibility of distant objects detected in UAV2's image B. To improve UAV2's ability to monitor moving vehicles efficiently C. To provide redundancy in case UAV2 fails to capture high-resolution imagery D. To coordinate the navigation of UAV2 for obstacle avoidance"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628423268493889280.png_MDMT_CA_UAV5_40",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628423268493889280.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628423268493889280-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628423268493889280-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628423268493889280-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628423268493889280-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628423268493889280-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the main cause of reduced visibility in the lower-right section of this image? A. Overexposure due to direct sunlight B. Occlusion caused by shadowing from tall buildings C. Low resolution leading to detail loss D. Lighting variations creating strong contrasts in the scene"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628484472543340288.png_MDMT_SC_43",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628484472543340288.png",
+    "question_type": "Scene Comparison",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628484472543340288-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628484472543340288-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628484472543340288-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628484472543340288-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628484472543340288-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat difference in object visibility is observed between UAV1 and UAV3? A. UAV1 provides a clearer view of the rock than UAV3 due to its angle B. UAV3 shows the rock completely hidden by trees while UAV1 shows its full visibility C. Both UAV1 and UAV3 equally reveal the rock's position without obstructions D. UAV1 and UAV3 show the rock partially occluded by nearby buildings"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_MDMT_SD_UAV5_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial arrangement of the buildings relative to the main road in this scene? A. Buildings are grouped on the right side of the road, forming a dense cluster B. Buildings are aligned along both sides of the road with scattered placements C. Buildings are exclusively on the left side of the road and spaced apart D. Buildings are located far from the road without direct alignment"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629201000237519360.png_MDMT_OM_UAV2_27",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629201000237519360.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629201000237519360-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629201000237519360-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629201000237519360-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629201000237519360-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629201000237519360-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the bench near the cluster of houses on the curved street visible in UAV2? A. The bench now visible on the lakeside path in UAV3 B. The bench slightly obscured by trees near the trail entrance in UAV4 C. The bench visible next to the building with the red roof in UAV3 D. The bench now visible near the rocky cliffside in UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629093666833511680.png_MDMT_OR_UAV2_18",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629093666833511680.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629093666833511680-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629093666833511680-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629093666833511680-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629093666833511680-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629093666833511680-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich type of vehicle is most prominently visible driving in the leftmost lane of the highway? A. A green sedan B. A black truck C. A white SUV D. A red motorcycle"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628248254973832704.png_MDMT_CA_UAV4_34",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628248254973832704.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628248254973832704-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628248254973832704-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628248254973832704-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628248254973832704-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628248254973832704-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of reduced visibility in this image from UAV4? A. Motion blur caused by fast-moving vehicles B. Overexposure caused by uneven sunlight C. Occlusion caused by foreground trees D. Low resolution due to limited sensor quality"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936250982352640.png_MDMT_QA_UAV4_3",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936250982352640.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936250982352640-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936250982352640-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936250982352640-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936250982352640-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936250982352640-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV4? A. 3 B. 5 C. 1 D. 2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629218507914019328.png_Sim5_when2col_UAV4_31",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629218507914019328.png",
+    "question_type": "When to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629218507914019328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629218507914019328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629218507914019328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629218507914019328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629218507914019328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nShould UAV4 collaborate with other UAVs to address need for collaboration due to environmental factors across UAVs? A. Yes, due to poor lighting conditions in multiple views B. No, lighting is adequate across all UAVs C. Yes, due to low image resolution in some views D. No, the environment is clear for all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629091952438388224.png_MDMT_OM_UAV1_17",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629091952438388224.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629091952438388224-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629091952438388224-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629091952438388224-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629091952438388224-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629091952438388224-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the cyclist seen riding along the lakeside road in UAV1? A. The cyclist now seen turning onto the side street near the residential area in UAV2 B. The cyclist now visible riding behind a red car on the main road in UAV3 C. The pedestrian standing near the traffic light intersection in UAV4 D. The cyclist now seen stationary near the park entrance in UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629091952438388224.png_MDMT_OG_UAV2_16",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629091952438388224.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629091952438388224-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629091952438388224-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629091952438388224-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629091952438388224-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629091952438388224-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial relationship between the row of buildings and the gas station in this scene? A. The row of buildings is located directly behind the gas station B. The row of buildings is opposite the gas station across the main road C. The row of buildings is adjacent to the gas station on the right side D. The row of buildings is in the corner surrounded by trees, distant from the gas station"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107791289598720.png_Sim5_what2col_UAV3_8",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107791289598720.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107791289598720-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107791289598720-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107791289598720-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107791289598720-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107791289598720-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat scene context information should UAV3 share with other UAVs to enhance the perception of the urban environment? A. The positions and movements of vehicles in residential streets and intersections visible to UAV3 B. Details of the trees and vegetation layout in residential areas, where UAV3 has a clear view C. Insights on the arrangement of buildings and traffic lights around the roundabout not visible to UAV3 D. The dimensions and alignment of roads that UAV3 can observe but are occluded in the other UAV views"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171352874600448.png_MDMT_UA_UAV3_15",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171352874600448.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171352874600448-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171352874600448-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171352874600448-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171352874600448-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171352874600448-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV3 usable for target perception tasks? A. Yes, highly usable B. Yes, partially usable C. No, not usable D. Yes, barely usable"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624170864769928192.png_MDMT_OM_UAV5_14",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624170864769928192.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624170864769928192-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624170864769928192-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624170864769928192-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624170864769928192-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624170864769928192-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the pedestrian waiting near the red umbrellas visible in UAV5? A. The pedestrian now walking on the sidewalk near the white building in UAV2 B. The pedestrian now standing near the entrance of the park in UAV3 C. The pedestrian now walking along the side of the fountain in UAV4 D. The pedestrian now standing near a yellow car in UAV1"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629223716469174016.png_MDMT_OM_UAV5_32",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629223716469174016.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629223716469174016-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629223716469174016-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629223716469174016-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629223716469174016-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629223716469174016-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIn UAV5's view, a black sedan is seen driving uphill along a curved road behind the rocky terrain. Which object in another UAV's view corresponds to this black sedan? A. The black sedan now seen from above, moving downhill along the curved road near UAV3. B. The stationary black SUV parked near houses in UAV2’s view. C. The black sedan now positioned at the intersection under the bridge in UAV4’s view. D. The red vehicle driving toward the parking lot in UAV1’s view."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629091952438388224.png_MDMT_SD_UAV3_17",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629091952438388224.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629091952438388224-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629091952438388224-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629091952438388224-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629091952438388224-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629091952438388224-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the dominant environmental context of this scene? A. A suburban area with residential houses and open green space B. A rural area dominated by farmland and sparse development C. An urban area with skyscrapers and dense traffic D. A coastal region with beaches and waterfronts"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629125437038686464.png_Sim5_what2col_UAV1_24",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629125437038686464.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629125437038686464-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629125437038686464-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629125437038686464-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629125437038686464-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629125437038686464-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat scene context information should UAV1 focus on sharing with other UAVs to improve traffic and terrain understanding? A. Traffic conditions along curved roads that are occluded in other UAV views B. Details of the elevation changes near the rocky cliff areas C. Forest density and road visibility near residential areas D. Road intersection layout connecting the broader highway with local roads"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624114615476825088.png_MDMT_CA_UAV1_13",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624114615476825088.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624114615476825088-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624114615476825088-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624114615476825088-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624114615476825088-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624114615476825088-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary factor affecting object detection quality in this image? A. High noise from sensor malfunction B. Shadow occlusion cast by nearby trees C. Low resolution due to UAV altitude D. Overexposure caused by bright sunlight"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623937902840830464.png_MDMT_OM_UAV3_4",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623937902840830464.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623937902840830464-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623937902840830464-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623937902840830464-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623937902840830464-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623937902840830464-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the dark gray sedan traveling in the middle lane in UAV3's view? A. The dark gray sedan now seen from a closer view in UAV2, traveling in the left lane B. The black SUV now seen from above in UAV1, parked near the intersection C. The dark gray sedan now seen from the side in UAV4, approaching a group of parked cars D. The silver sedan now seen from the rear in UAV5, moving through a residential area"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1623936183309908992.png_MDMT_CA_UAV4_2",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1623936183309908992.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1623936183309908992-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1623936183309908992-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1623936183309908992-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1623936183309908992-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1623936183309908992-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of reduced visibility in this UAV4 image? A. Overexposure due to bright sunlight causing shadow contrast B. Motion blur from fast-moving objects within the scene C. Occlusion by tall objects such as trees and buildings D. Loss of detail due to low-resolution sensors"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107811717034496.png_MDMT_OC_UAV3_9",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107811717034496.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107811717034496-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107811717034496-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107811717034496-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107811717034496-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107811717034496-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV3's perspective? A. 14 B. 12 C. 15 D. 10"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_OM_UAV1_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the cluster of four beige apartment buildings seen near the bottom-right corner of UAV1's view? A. The cluster of four beige apartment buildings now seen near the bottom-left corner of UAV3 B. The four beige apartment buildings seen aligned along the road in UAV4's view C. The cluster of beige buildings seen near the center of UAV2's view, bordered by palm trees D. The row of smaller houses overlapping the beige apartment buildings in UAV5's view"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628483886999027712.png_MDMT_OG_UAV3_40",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628483886999027712.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628483886999027712-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628483886999027712-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628483886999027712-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628483886999027712-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628483886999027712-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial position of the large tree nearest to the road curve relative to the white boundary wall? A. The large tree is located inside the boundary wall, near the road bend B. The large tree is positioned behind and outside the boundary wall C. The large tree is adjacent to the boundary wall but not near the bend in the road D. The large tree is situated opposite the boundary wall, across the road"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_MDMT_SC_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Scene Comparison",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective provides the clearest view of distinct building shapes and architectural features? A. UAV1 clearly shows the rectangular buildings in a linear arrangement along the road B. UAV2 provides the clearest view of the white classical building and its landmarks C. UAV3 best captures the densely arranged residential blocks and their uniform structure D. UAV4 emphasizes the curved road and sparse arrangement of small houses"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628409917747699200.png_MDMT_CA_UAV4_35",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628409917747699200.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628409917747699200-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628409917747699200-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628409917747699200-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628409917747699200-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628409917747699200-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of reduced object detection accuracy in this image captured by UAV4? A. Occlusion of key objects by trees B. Blurring due to rapid UAV movement C. Low resolution caused by sensor limitations D. Overexposure from direct sunlight"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105318731299328.png_Sim5_why2col_UAV3_6",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105318731299328.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105318731299328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105318731299328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105318731299328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105318731299328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105318731299328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy is it important for UAV3 to collaborate with other UAVs in this scenario? A. To gain detailed visibility of distant objects that appear smaller in UAV3's view B. To avoid redundancy by eliminating overlapping fields of view C. To calculate the speed of vehicles by integrating multiple perspectives D. To optimize battery usage by reducing UAV flight time"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628494009272228352.png_Sim5_who2col_UAV4_44",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628494009272228352.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628494009272228352-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628494009272228352-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628494009272228352-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628494009272228352-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628494009272228352-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV4 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV2 B. None (no need for collaboration) C. UAV1 D. UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628410764252718848.png_MDMT_OC_UAV3_36",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628410764252718848.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628410764252718848-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628410764252718848-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628410764252718848-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628410764252718848-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628410764252718848-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV3's perspective? A. 17 B. 16 C. 14 D. 19"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624111375755501568.png_MDMT_CA_UAV5_12",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624111375755501568.png",
+    "question_type": "Causal Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624111375755501568-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624111375755501568-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624111375755501568-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624111375755501568-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624111375755501568-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the primary cause of potential object detection issues in this UAV5 image? A. Reflections from bright sunlight on building surfaces B. Occlusion caused by tall trees near roads C. Low resolution of the UAV camera sensor D. Motion blur from rapidly moving vehicles"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624114615476825088.png_MDMT_QA_UAV4_13",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624114615476825088.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624114615476825088-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624114615476825088-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624114615476825088-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624114615476825088-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624114615476825088-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV4? A. 1 B. 2 C. 3 D. 5"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628422473693368320.png_MDMT_UA_UAV4_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628422473693368320.png",
+    "question_type": "Usability Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628422473693368320-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628422473693368320-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628422473693368320-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628422473693368320-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628422473693368320-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nIs the image captured by UAV4 usable for target perception tasks? A. Yes, usable B. Yes, partially usable C. Yes, highly usable D. Yes, barely usable"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628422473693368320.png_Sim5_why2col_UAV1_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628422473693368320.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628422473693368320-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628422473693368320-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628422473693368320-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628422473693368320-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628422473693368320-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy should UAV1 collaborate with other UAVs in this specific scene? A. To compensate for object occlusion in UAV1's view using complementary angles B. To minimize energy consumption across multi-UAV operations C. To expand the imaging area beyond UAV1's current field of view D. To improve altitude control in navigation systems"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629109485061830400.png_MDMT_OM_UAV3_23",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629109485061830400.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629109485061830400-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629109485061830400-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629109485061830400-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629109485061830400-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629109485061830400-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV’s view corresponds to the yellow vehicle in the left lane of the highway observed in UAV3’s view? A. The yellow vehicle now seen merging onto a curved road in UAV2’s view. B. The yellow vehicle now stationary behind a row of parked cars in UAV4’s view. C. The yellow vehicle seen traveling in the middle lane, heading toward an underpass in UAV5’s view. D. The yellow vehicle now seen parked near the trees on the right side of the road in UAV1’s view."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_MDMT_QA_UAV5_41",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV5? A. 3 B. 1 C. 5 D. 2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629223716469174016.png_MDMT_OC_UAV1_32",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629223716469174016.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629223716469174016-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629223716469174016-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629223716469174016-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629223716469174016-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629223716469174016-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV1's perspective? A. 51 B. 46 C. 48 D. 49"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629201000237519360.png_MDMT_SD_UAV2_27",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629201000237519360.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629201000237519360-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629201000237519360-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629201000237519360-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629201000237519360-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629201000237519360-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat movement pattern is most likely occurring near the curved residential roads in this scene? A. Vehicles are actively moving along the curves of the roads B. Vehicles are stationary, parked outside the houses C. Vehicles are moving in straight lines away from residential roads D. No vehicles are present near the residential roads"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_QA_UAV1_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV1? A. 2 B. 4 C. 3 D. 1"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107791289598720.png_MDMT_SD_UAV5_8",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107791289598720.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107791289598720-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107791289598720-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107791289598720-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107791289598720-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107791289598720-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the interaction between the vehicles and the intersection in this scene? A. Vehicles are actively crossing the intersection in various directions B. Vehicles are stopped at the intersection waiting for their turn C. Vehicles are parked along the roadside near the intersection D. Vehicles are absent from the intersection area entirely"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171377571127296.png_MDMT_OM_UAV2_16",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171377571127296.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171377571127296-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171377571127296-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171377571127296-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171377571127296-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171377571127296-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the white car seen turning left at the intersection in UAV2? A. The white car now seen traveling straight on the road near the train tracks in UAV3 B. The white car now seen parked near the modern fountain in UAV5 C. The white car now seen driving in front of the row of residential houses in UAV4 D. The white van now seen turning at the intersection near the commercial buildings in UAV2"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628422473693368320.png_Sim5_who2col_UAV5_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628422473693368320.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628422473693368320-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628422473693368320-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628422473693368320-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628422473693368320-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628422473693368320-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV5 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV2 B. None (no need for collaboration) C. UAV1 D. UAV4"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624106452866560512.png_MDMT_OR_UAV4_7",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624106452866560512.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624106452866560512-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624106452866560512-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624106452866560512-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624106452866560512-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624106452866560512-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat type of vehicle is prominently visible near the fountain? A. A blue sedan B. A red SUV C. A white truck D. A yellow taxi"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624108954431890688.png_MDMT_OC_UAV4_10",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624108954431890688.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624108954431890688-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624108954431890688-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624108954431890688-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624108954431890688-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624108954431890688-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV4's perspective? A. 34 B. 32 C. 31 D. 33"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628423268493889280.png_Sim5_who2col_UAV1_40",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628423268493889280.png",
+    "question_type": "Who to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628423268493889280-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628423268493889280-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628423268493889280-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628423268493889280-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628423268493889280-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV should UAV1 collaborate with for collaboration partner for complementary perspective in multi-UAV setup? A. UAV2 B. None (no need for collaboration) C. UAV4 D. UAV3"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628494009272228352.png_MDMT_SD_UAV4_44",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628494009272228352.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628494009272228352-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628494009272228352-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628494009272228352-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628494009272228352-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628494009272228352-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat best describes the spatial arrangement of the buildings relative to the large curving road visible in the scene? A. Buildings are positioned only on one side of the curving road B. Buildings are scattered randomly far from the curving road C. Buildings are tightly clustered on both sides of the curving road D. Buildings form a straight line pattern completely parallel to the curving road"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624105318731299328.png_MDMT_OC_UAV5_6",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624105318731299328.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624105318731299328-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624105318731299328-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624105318731299328-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624105318731299328-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624105318731299328-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV5's perspective? A. 13 B. 15 C. 10 D. 14"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624108967590171392.png_MDMT_OP_11",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624108967590171392.png",
+    "question_type": "Observing Posture",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624108967590171392-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624108967590171392-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624108967590171392-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624108967590171392-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624108967590171392-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective better captures the spatial relationship between fenced properties and adjacent roadways? A. UAV1 provides a clearer view of fenced properties due to its side-angle perspective B. UAV3 provides the most detailed context of proximity to adjacent roadways C. UAV2 emphasizes the overall alignment of properties with urban infrastructure and roundabouts D. UAV4 provides an overhead view that minimizes clarity of individual property features"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629109485061830400.png_MDMT_OC_UAV4_23",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629109485061830400.png",
+    "question_type": "Object Counting",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629109485061830400-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629109485061830400-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629109485061830400-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629109485061830400-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629109485061830400-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nBased on the image analysis, how many targets (vehicles, pedestrians, bicycles) can be observed in UAV4's perspective? A. 27 B. 31 C. 28 D. 29"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628410764252718848.png_Sim5_what2col_UAV3_36",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628410764252718848.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628410764252718848-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628410764252718848-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628410764252718848-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628410764252718848-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628410764252718848-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific object information should UAV3 share with other UAVs to improve multi-view perception of the scene? A. Precise positions and movements of the blue car on the main road visible in UAV3's view. B. Architectural details of the silo structures for better object recognition in other UAVs. C. Tree locations along the road to align environmental features across all UAV views. D. Details of vehicle congestion near the circular building visible in UAV2's angle."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628248254973832704.png_Sim5_what2col_UAV5_34",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628248254973832704.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628248254973832704-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628248254973832704-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628248254973832704-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628248254973832704-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628248254973832704-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific scene context information should UAV5 collaborate on with other UAVs to provide a comprehensive multi-view understanding of the area? A. Details of the green open field area visible in UAV5 to confirm its extent across UAV views B. Information on building shadows affecting visibility for UAV navigation C. Traffic density and movement patterns near the roads shown in UAV2 and UAV3 D. The geometrical layout of high-rise buildings across all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628483886999027712.png_MDMT_SD_UAV1_42",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628483886999027712.png",
+    "question_type": "Scene Description",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628483886999027712-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628483886999027712-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628483886999027712-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628483886999027712-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628483886999027712-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the relationship between the parked vehicles and the nearby buildings in this scene? A. Vehicles are parked directly in front of the buildings B. Vehicles are parked on a road across a grass area from the buildings C. Vehicles are parked alongside the buildings forming a narrow alleyway D. Vehicles are parked randomly throughout the scene without a clear relationship to the buildings"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629200928358985984.png_Sim5_when2col_UAV5_26",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629200928358985984.png",
+    "question_type": "When to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629200928358985984-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629200928358985984-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629200928358985984-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629200928358985984-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629200928358985984-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nShould UAV5 collaborate with other UAVs to address need for collaboration due to environmental factors across UAVs? A. Yes, due to poor lighting conditions in multiple views B. No, lighting is adequate across all UAVs C. Yes, due to low image resolution in some views D. No, the environment is clear for all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628494009272228352.png_Sim5_what2col_UAV5_44",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628494009272228352.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628494009272228352-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628494009272228352-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628494009272228352-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628494009272228352-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628494009272228352-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific object information should UAV5 share with other UAVs to enhance multi-view perception of the urban area? A. Locations and dimensions of residential buildings across UAV views B. Details of the trees and vegetation along the road from different angles C. Traffic patterns and vehicle positions at intersections visible from multiple UAVs D. Positions and shapes of silos near the rural buildings visible only in UAV3's view"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171377571127296.png_Sim5_what2col_UAV2_16",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171377571127296.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171377571127296-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171377571127296-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171377571127296-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171377571127296-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171377571127296-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat traffic-related scene context should UAV2 share with other UAVs to enhance multi-view perception of the intersection area? A. The positions of vehicles across the intersection to predict traffic congestion B. The layout of road markings and traffic lane divisions visible in UAV2's view C. The architectural details of nearby buildings to map urban surroundings D. The pattern of pedestrian movements near the intersection zone"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628426933546515456.png_MDMT_OG_UAV3_39",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628426933546515456.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628426933546515456-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628426933546515456-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628426933546515456-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628426933546515456-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628426933546515456-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the spatial relationship of the large building to the curved road and the dense cluster of trees in this scene? A. The large building is located to the right of the curved road, closer to the dense cluster of trees B. The large building is positioned to the left of the curved road, separated by sparse trees C. The large building is directly adjacent to the dense cluster of trees, with no road separating them D. The large building is situated beyond the curved road, closer to the hillside"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629095239127567616.png_MDMT_OM_UAV3_19",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629095239127567616.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629095239127567616-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629095239127567616-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629095239127567616-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629095239127567616-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629095239127567616-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the purple sedan driving along the curved road near the apartment building in UAV3? A. The purple sedan now seen stationary in the parking lot in UAV2 B. The purple sedan now seen driving along the highway adjacent to UAV4's view C. The purple sedan now seen parked beside the small residential area in UAV5 D. The red coupe now seen driving along the same curved road near the apartment building in UAV1"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629096982293769472.png_Sim5_what2col_UAV1_20",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629096982293769472.png",
+    "question_type": "What to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629096982293769472-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629096982293769472-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629096982293769472-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629096982293769472-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629096982293769472-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat specific scene context information should UAV1 share with other UAVs to improve multi-view perception? A. Traffic density on the main road captured by UAV1 to complement views of intersections from other UAVs. B. Details of the houses and residential area layout observed from higher altitudes. C. Spatial information about rocky terrains and their position relative to the roads. D. Exact locations and movement of vehicles across the intersecting roads near the cliffs."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624108954431890688.png_MDMT_OM_UAV4_10",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624108954431890688.png",
+    "question_type": "Object Matching",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624108954431890688-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624108954431890688-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624108954431890688-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624108954431890688-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624108954431890688-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich object in another UAV's view corresponds to the pedestrian walking along the sidewalk near the tall building in UAV4? A. The pedestrian now seen entering the park near the roundabout in UAV3 B. The pedestrian now standing near the white building across the street in UAV2 C. The pedestrian walking along a fenced property in UAV1’s perspective D. The pedestrian now crossing the road near the red truck visible in UAV5"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624111375755501568.png_Sim5_when2col_UAV5_12",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624111375755501568.png",
+    "question_type": "When to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624111375755501568-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624111375755501568-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624111375755501568-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624111375755501568-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624111375755501568-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nShould UAV5 collaborate with other UAVs to address need for collaboration due to environmental factors across UAVs? A. Yes, due to poor lighting conditions in multiple views B. No, lighting is adequate across all UAVs C. Yes, due to low image resolution in some views D. No, the environment is clear for all UAVs"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624171377571127296.png_MDMT_OG_UAV3_15",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624171377571127296.png",
+    "question_type": "Object Grounding",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624171377571127296-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624171377571127296-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624171377571127296-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624171377571127296-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624171377571127296-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhere are the row of identical white buildings with red roofs positioned relative to the curved road leading to the residential houses? A. The white buildings are located directly next to the curved road B. The white buildings are positioned on the opposite side of the curved road, near the residential houses C. The white buildings are positioned on the open green space perpendicular to the curved road D. The white buildings are located between the curved road and the larger rectangular building"
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628502416425925888.png_MDMT_OR_UAV4_46",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628502416425925888.png",
+    "question_type": "Object Recognition",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628502416425925888-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628502416425925888-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628502416425925888-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628502416425925888-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628502416425925888-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich type of object is most prominently visible near the curved road in the foreground? A. A large rock B. A parked bicycle C. A pedestrian walking D. A small tree"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624107791289598720.png_Sim5_why2col_UAV1_8",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624107791289598720.png",
+    "question_type": "Why to Collaborate",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624107791289598720-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624107791289598720-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624107791289598720-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624107791289598720-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624107791289598720-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhy is it necessary for UAV1 to collaborate with other UAVs given the scene in the images? A. To ensure visibility of vehicles that may be occluded by buildings or walls B. To adjust color correction for consistency in all UAV views C. To capture data from more distant areas not covered by UAV1's position D. To reduce image overlap between UAV views"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "4-40m-1629091952438388224.png_MDMT_QA_UAV5_17",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_4-40m-1629091952438388224.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/4-40m-1629091952438388224-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/4-40m-1629091952438388224-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/4-40m-1629091952438388224-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/4-40m-1629091952438388224-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/4-40m-1629091952438388224-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV5? A. 5 B. 3 C. 1 D. 2"
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628410764252718848.png_MDMT_OP_36",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628410764252718848.png",
+    "question_type": "Observing Posture",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628410764252718848-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628410764252718848-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628410764252718848-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628410764252718848-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628410764252718848-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhich UAV perspective better highlights the spatial relationship between the circular building and the main road? A. UAV1 provides a clearer view due to its higher angle and proximity to the circular building B. UAV2 provides a clearer view due to its focus on the main road and the surrounding structures C. Both UAV perspectives equally highlight the spatial relationship D. Neither UAV perspective adequately shows the relationship between the circular building and the road"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "6-40m-1628484472543340288.png_MDMT_QA_UAV4_43",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_6-40m-1628484472543340288.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/6-40m-1628484472543340288-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/6-40m-1628484472543340288-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/6-40m-1628484472543340288-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/6-40m-1628484472543340288-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/6-40m-1628484472543340288-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV4? A. 3 B. 1 C. 2 D. 4"
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ]
+  },
+  {
+    "id": "3-40m-1624111375755501568.png_MDMT_QA_UAV2_12",
+    "data_source": "MDT_Collaboration_Dataset",
+    "scene_name": "collaboration_scene_3-40m-1624111375755501568.png",
+    "question_type": "Quality Assessment",
+    "image": [
+      "Sim_5_UAVs/Samples/UAV1/3-40m-1624111375755501568-UAV1.png",
+      "Sim_5_UAVs/Samples/UAV2/3-40m-1624111375755501568-UAV2.png",
+      "Sim_5_UAVs/Samples/UAV3/3-40m-1624111375755501568-UAV3.png",
+      "Sim_5_UAVs/Samples/UAV4/3-40m-1624111375755501568-UAV4.png",
+      "Sim_5_UAVs/Samples/UAV5/3-40m-1624111375755501568-UAV5.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the perception quality assessment score (1-5) for the image captured by UAV2? A. 5 B. 2 C. 1 D. 3"
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ]
+  }
+]
