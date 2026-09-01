@@ -151,11 +151,6 @@ MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian
 ```
 
 配置环境：
-
-```bash
-conda env create -f model_test/envs/urbanvideobench.yml
-```
-或者使用
 ```bash
 conda create -n arts-videoqa python=3.10 -y
 conda activate arts-videoqa
@@ -167,11 +162,33 @@ python -m pip install -r requirements.txt
 启动测试：
 
 ```bash
-MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian \
-DATA_DIR=/path/to/UrbanVideoBench \
-OUTPUT_DIR=/path/to/output/urbanvideobench \
-GPU=0 LIMIT=-1 \
-bash model_test/UrbanVideoBench/run_test.sh
+cd /home/aiscuser/worspace-sj/2026ARTS_official_eval/VideoQA
+bash run_8gpu.sh
 ```
 
-测试前可先将 `LIMIT=-1` 改为 `LIMIT=1` 做单样本检查。
+运行其他权重时必须设置新的 `RUN_NAME`：
+
+```bash
+MODEL_PATH=/path/to/new/model \
+RUN_NAME=urbanvideo_new_model \
+bash run_8gpu.sh
+```
+
+显式指定官方原始 parquet：
+
+```bash
+DATA_PARQUET=/home/aiscuser/worspace-sj/-21-/VQA/test/UrbanVideoBench/VideoQA_test.parquet \
+MODEL_PATH=/home/aiscuser/worspace-sj/model \
+RUN_NAME=urbanvideo_stage2_official_path \
+bash run_8gpu.sh
+```
+
+可调参数及默认值：
+
+```text
+MAX_FRAMES=32
+MAX_TOTAL_VIDEO_PIXELS=6291456
+MIN_FREE_MIB=9000
+PYTHON_BIN=python3
+```
+
