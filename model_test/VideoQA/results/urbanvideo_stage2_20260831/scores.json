@@ -1,0 +1,146 @@
+{
+  "overall_accuracy": 0.7871148459383753,
+  "correct": 843,
+  "total": 1071,
+  "per_category": {
+    "Action Generation": {
+      "accuracy": 0.7325102880658436,
+      "correct": 178,
+      "total": 243
+    },
+    "Association Reasoning": {
+      "accuracy": 0.6,
+      "correct": 27,
+      "total": 45
+    },
+    "Causal": {
+      "accuracy": 0.9629629629629629,
+      "correct": 26,
+      "total": 27
+    },
+    "Cognitive Map": {
+      "accuracy": 0.7735849056603774,
+      "correct": 41,
+      "total": 53
+    },
+    "Counterfactual": {
+      "accuracy": 0.9428571428571428,
+      "correct": 33,
+      "total": 35
+    },
+    "Duration": {
+      "accuracy": 0.896551724137931,
+      "correct": 26,
+      "total": 29
+    },
+    "Goal Detection": {
+      "accuracy": 0.7551020408163265,
+      "correct": 37,
+      "total": 49
+    },
+    "High-level Planning": {
+      "accuracy": 0.8181818181818182,
+      "correct": 45,
+      "total": 55
+    },
+    "Landmark Position": {
+      "accuracy": 0.7397959183673469,
+      "correct": 145,
+      "total": 196
+    },
+    "Object Recall": {
+      "accuracy": 0.875,
+      "correct": 21,
+      "total": 24
+    },
+    "Progress Evaluation": {
+      "accuracy": 0.8169014084507042,
+      "correct": 116,
+      "total": 142
+    },
+    "Proximity": {
+      "accuracy": 0.8260869565217391,
+      "correct": 19,
+      "total": 23
+    },
+    "Scene Recall": {
+      "accuracy": 0.8571428571428571,
+      "correct": 12,
+      "total": 14
+    },
+    "Sequence Recall": {
+      "accuracy": 0.9655172413793104,
+      "correct": 28,
+      "total": 29
+    },
+    "Start/End Position": {
+      "accuracy": 0.8823529411764706,
+      "correct": 30,
+      "total": 34
+    },
+    "Trajectory Captioning": {
+      "accuracy": 0.8082191780821918,
+      "correct": 59,
+      "total": 73
+    }
+  },
+  "confusion": {
+    "A": {
+      "A": 157,
+      "B": 19,
+      "C": 18,
+      "D": 10,
+      "E": 6,
+      "F": 1
+    },
+    "B": {
+      "A": 17,
+      "B": 187,
+      "C": 24,
+      "D": 8,
+      "E": 5
+    },
+    "C": {
+      "A": 14,
+      "B": 12,
+      "C": 168,
+      "D": 5,
+      "E": 5
+    },
+    "D": {
+      "A": 9,
+      "B": 12,
+      "C": 12,
+      "D": 127,
+      "E": 5,
+      "G": 2
+    },
+    "E": {
+      "A": 14,
+      "B": 12,
+      "C": 5,
+      "D": 4,
+      "E": 149,
+      "F": 1
+    },
+    "F": {
+      "F": 16,
+      "G": 2
+    },
+    "G": {
+      "F": 6,
+      "G": 39
+    }
+  },
+  "validation": {
+    "expected_count": 1071,
+    "result_count": 1071,
+    "expected_unique": 1071,
+    "result_unique": 1071,
+    "duplicate_results": [],
+    "missing": [],
+    "extra": [],
+    "error_count": 0,
+    "invalid_prediction_count": 0
+  }
+}

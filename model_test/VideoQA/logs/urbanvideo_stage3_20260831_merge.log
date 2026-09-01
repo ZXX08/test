@@ -1,0 +1,148 @@
+{
+  "overall_accuracy": 0.6741363211951448,
+  "correct": 722,
+  "total": 1071,
+  "per_category": {
+    "Action Generation": {
+      "accuracy": 0.6213991769547325,
+      "correct": 151,
+      "total": 243
+    },
+    "Association Reasoning": {
+      "accuracy": 0.6666666666666666,
+      "correct": 30,
+      "total": 45
+    },
+    "Causal": {
+      "accuracy": 0.8148148148148148,
+      "correct": 22,
+      "total": 27
+    },
+    "Cognitive Map": {
+      "accuracy": 0.8301886792452831,
+      "correct": 44,
+      "total": 53
+    },
+    "Counterfactual": {
+      "accuracy": 0.7142857142857143,
+      "correct": 25,
+      "total": 35
+    },
+    "Duration": {
+      "accuracy": 0.6206896551724138,
+      "correct": 18,
+      "total": 29
+    },
+    "Goal Detection": {
+      "accuracy": 0.6122448979591837,
+      "correct": 30,
+      "total": 49
+    },
+    "High-level Planning": {
+      "accuracy": 0.8,
+      "correct": 44,
+      "total": 55
+    },
+    "Landmark Position": {
+      "accuracy": 0.6377551020408163,
+      "correct": 125,
+      "total": 196
+    },
+    "Object Recall": {
+      "accuracy": 0.7083333333333334,
+      "correct": 17,
+      "total": 24
+    },
+    "Progress Evaluation": {
+      "accuracy": 0.6338028169014085,
+      "correct": 90,
+      "total": 142
+    },
+    "Proximity": {
+      "accuracy": 0.782608695652174,
+      "correct": 18,
+      "total": 23
+    },
+    "Scene Recall": {
+      "accuracy": 0.7142857142857143,
+      "correct": 10,
+      "total": 14
+    },
+    "Sequence Recall": {
+      "accuracy": 0.6896551724137931,
+      "correct": 20,
+      "total": 29
+    },
+    "Start/End Position": {
+      "accuracy": 0.6176470588235294,
+      "correct": 21,
+      "total": 34
+    },
+    "Trajectory Captioning": {
+      "accuracy": 0.7808219178082192,
+      "correct": 57,
+      "total": 73
+    }
+  },
+  "confusion": {
+    "A": {
+      "A": 130,
+      "B": 26,
+      "C": 35,
+      "D": 8,
+      "E": 11,
+      "G": 1
+    },
+    "B": {
+      "A": 33,
+      "B": 156,
+      "C": 31,
+      "D": 10,
+      "E": 11
+    },
+    "C": {
+      "A": 20,
+      "B": 21,
+      "C": 143,
+      "D": 8,
+      "E": 12
+    },
+    "D": {
+      "A": 20,
+      "B": 9,
+      "C": 18,
+      "D": 114,
+      "E": 6
+    },
+    "E": {
+      "A": 21,
+      "B": 21,
+      "C": 10,
+      "D": 12,
+      "E": 119,
+      "F": 1,
+      "G": 1
+    },
+    "F": {
+      "A": 1,
+      "F": 16,
+      "G": 1
+    },
+    "G": {
+      "A": 1,
+      "G": 44
+    }
+  },
+  "validation": {
+    "expected_count": 1071,
+    "result_count": 1071,
+    "expected_unique": 1071,
+    "result_unique": 1071,
+    "duplicate_results": [],
+    "missing": [],
+    "extra": [],
+    "error_count": 0,
+    "invalid_prediction_count": 0
+  }
+}
+Validated submission: /home/aiscuser/worspace-sj/stage1_aircopbench_8gpu_official_20260831/urbanvideo_8gpu_official/results/urbanvideo_stage3_20260831/VideoQA.json

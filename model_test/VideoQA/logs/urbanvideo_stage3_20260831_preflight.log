@@ -1,0 +1,30 @@
+{
+  "data_parquet": "/home/aiscuser/worspace-sj/-21-/VQA/test/UrbanVideoBench/VideoQA_test.parquet",
+  "parquet_sha256": "e28288b9c80824161fe2b2c846485a5901c4c4c463b5b9d3ffb6a0176f18f0c6",
+  "questions": 1071,
+  "unique_question_ids": 1071,
+  "unique_videos": 748,
+  "missing_videos": 0,
+  "answer_distribution": {
+    "A": 211,
+    "B": 241,
+    "C": 204,
+    "D": 167,
+    "E": 185,
+    "F": 18,
+    "G": 45
+  },
+  "model_path": "/home/aiscuser/worspace-sj/stage3",
+  "model_sha256": "f178486349bc47547072964977f427927c8822b4108ee7a011e202827312d670",
+  "cuda_devices": 8,
+  "gpu_free_mib": [
+    40015,
+    40015,
+    40015,
+    40015,
+    40015,
+    40015,
+    40015,
+    40015
+  ]
+}
