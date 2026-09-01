@@ -123,7 +123,14 @@ MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
 ```bash
 conda env create -f model_test/envs/aircopbench.yml
 ```
-
+或者使用
+```bash
+conda create -n arts-multiagentqa python=3.10 -y
+conda activate arts-multiagentqa
+python -m pip install torch==2.8.0 torchvision==0.23.0 \
+  --index-url https://download.pytorch.org/whl/cu126
+python -m pip install -r requirements.txt
+```
 启动测试：
 
 ```bash
@@ -147,6 +154,14 @@ MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian
 
 ```bash
 conda env create -f model_test/envs/urbanvideobench.yml
+```
+或者使用
+```bash
+conda create -n arts-videoqa python=3.10 -y
+conda activate arts-videoqa
+python -m pip install torch==2.8.0 torchvision==0.23.0 \
+  --index-url https://download.pytorch.org/whl/cu126
+python -m pip install -r requirements.txt
 ```
 
 启动测试：
