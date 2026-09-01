@@ -2,6 +2,21 @@
 
 本仓库用于 Qwen3 全参数 SFT 训练、测试和结果复现。
 
+仓库地址：https://github.com/ZXX08/test
+
+## 模型测试工具
+
+AirCopBench、O3DVQA 和 UrbanVideoBench 的测试代码已统一整理到
+[`model_test/`](model_test/README.md)。该目录为每个测试任务提供：
+
+- 独立的 Conda 环境配置；
+- 数据和模型路径说明；
+- 单样本 smoke test 与完整推理脚本；
+- 断点续跑和输出格式说明。
+
+视频、图片、模型权重、缓存和推理结果不提交到 Git，请按照各测试目录的
+README 配置本地路径。
+
 ## 环境配置
 
 ```bash
