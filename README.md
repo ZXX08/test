@@ -1,132 +1,157 @@
-# Qwen3 Full SFT
+# Qwen3.5 训练与测试
 
-本仓库用于 Qwen3 全参数 SFT 训练、测试和结果复现。
+## 一、训练
 
-仓库地址：https://github.com/ZXX08/test
+训练代码位于 `trian/`，需要在该目录下安装和启动。
 
-完整 LLaMA-Factory 训练代码快照位于 [`trian/`](trian/README_zh.md)。
-
-## 模型测试工具
-
-AirCopBench、O3DVQA 和 UrbanVideoBench 的测试代码已统一整理到
-[`model_test/`](model_test/README.md)。该目录为每个测试任务提供：
-
-- 独立的 Conda 环境配置；
-- 数据和模型路径说明；
-- 单样本 smoke test 与完整推理脚本；
-- 断点续跑和输出格式说明。
-
-视频、图片、模型权重、缓存和推理结果不提交到 Git，请按照各测试目录的
-README 配置本地路径。
-
-## 环境配置
+### 1. 配置训练环境
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+cd trian
+conda create -n qwen35-train python=3.11 -y
+conda activate qwen35-train
 pip install -U pip
 pip install -e .
-pip install tensorboard
 ```
 
-Windows PowerShell 激活环境：
+如使用 GPU，请先安装与 CUDA/驱动匹配的 PyTorch。
 
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
+### 2. 第一阶段训练
 
-如使用 CUDA，请先安装与显卡驱动匹配的 PyTorch。
-
-## 完整训练
-
-训练配置：
+第一阶段配置文件：
 
 ```text
-configs/qwen3_full_sft.yaml
+trian/examples/train_full/qwen3.5_stage1.yaml
 ```
 
-训练命令：
+启动命令：
 
 ```bash
-llamafactory-cli train configs/qwen3_full_sft.yaml
+cd trian
+llamafactory-cli train examples/train_full/qwen3.5_stage1.yaml
 ```
 
-Windows 可直接运行：
-
-```powershell
-.\scripts\run_full_train.ps1
-```
-
-关键超参数：
+第一阶段输出权重：
 
 ```text
-model_name_or_path: Qwen/Qwen3-4B-Instruct-2507
-dataset: identity,alpaca_en_demo
-finetuning_type: full
-cutoff_len: 2048
-val_size: 0.05
-per_device_train_batch_size: 1
-gradient_accumulation_steps: 2
-learning_rate: 1.0e-5
-num_train_epochs: 3.0
-eval_strategy: epoch
-save_strategy: epoch
+/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
 ```
 
-## 日志和权重
+### 3. 第二阶段训练
+
+第一阶段训练完成后，再启动第二阶段训练。
+
+第二阶段配置文件：
 
 ```text
-训练日志: logs/training/qwen3_full_sft/
-验证记录: models/qwen3-4b/full/sft/trainer_state.json
-权重路径: models/qwen3-4b/full/sft/
-TensorBoard: tensorboard --logdir logs/training/qwen3_full_sft
+trian/examples/train_full/qwen3.5_stage2.yaml
 ```
 
-训练完成后重点保留：
-
-```text
-models/qwen3-4b/full/sft/config.json
-models/qwen3-4b/full/sft/tokenizer.json
-models/qwen3-4b/full/sft/model*.safetensors
-models/qwen3-4b/full/sft/trainer_state.json
-models/qwen3-4b/full/sft/training_loss.png
-```
-
-## 测试
-
-测试配置：
-
-```text
-configs/qwen3_predict.yaml
-```
-
-测试命令：
+启动命令：
 
 ```bash
-llamafactory-cli train configs/qwen3_predict.yaml
+cd trian
+llamafactory-cli train examples/train_full/qwen3.5_stage2.yaml
 ```
 
-Windows 可直接运行：
-
-```powershell
-.\scripts\run_predict.ps1
-```
-
-测试相关路径：
+第二阶段默认读取第一阶段权重：
 
 ```text
-测试数据: data/alpaca_en_demo.json
-权重路径: models/qwen3-4b/full/sft/
-测试日志: logs/eval/qwen3_full_sft/
-结果输出: outputs/predictions/qwen3_full_sft/
+/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
 ```
 
-## 权重下载和使用
-
-仓库不提交大体积权重。将训练好的权重下载或复制到：
+第二阶段输出权重：
 
 ```text
-models/qwen3-4b/full/sft/
+/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian
 ```
 
-然后运行测试命令即可加载该权重。
+## 二、测试
+
+测试代码位于 `model_test/`。三个测试集分别配置环境并运行。
+
+### 1. O3DQA 测试
+
+O3DQA 使用第一阶段训练结果：
+
+```text
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
+```
+
+配置环境：
+
+```bash
+conda env create -f model_test/envs/o3dvqa.yml
+```
+
+启动测试：
+
+```bash
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa \
+DATA_JSON=/path/to/Test_v2.json \
+DATA_ROOT=/path/to/O3DVQA_v2 \
+RESULT_DIR=/path/to/output/o3dvqa \
+MODEL_NAME=qwen35_stage1 \
+GPU=0 LIMIT=-1 \
+bash model_test/O3DVQA/run_inference.sh
+```
+
+可选评测：
+
+```bash
+RESULT_PATH=/path/to/output/o3dvqa/qwen35_stage1_responses.json \
+DATA_JSON=/path/to/Test_v2.json \
+OPENAI_API_KEY=your-key \
+bash model_test/O3DVQA/run_evaluation.sh
+```
+
+### 2. AirCopBench 测试
+
+AirCopBench 使用第一阶段训练结果：
+
+```text
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
+```
+
+配置环境：
+
+```bash
+conda env create -f model_test/envs/aircopbench.yml
+```
+
+启动测试：
+
+```bash
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa \
+ANNOTATIONS_DIR=model_test/AircopBench \
+IMAGES_ROOT=/path/to/AirCopBench \
+OUTPUT_DIR=/path/to/output/aircopbench \
+GPU=0 LIMIT=-1 \
+bash model_test/AircopBench/run_test.sh
+```
+
+### 3. UrbanVideoBench 测试
+
+UrbanVideoBench 使用第二阶段训练结果：
+
+```text
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian
+```
+
+配置环境：
+
+```bash
+conda env create -f model_test/envs/urbanvideobench.yml
+```
+
+启动测试：
+
+```bash
+MODEL_PATH=/root/workspace-sj/saves/qwen3vl_stage2_urbanvideobench_trian \
+DATA_DIR=/path/to/UrbanVideoBench \
+OUTPUT_DIR=/path/to/output/urbanvideobench \
+GPU=0 LIMIT=-1 \
+bash model_test/UrbanVideoBench/run_test.sh
+```
+
+测试前可先将 `LIMIT=-1` 改为 `LIMIT=1` 做单样本检查。
