@@ -8,10 +8,15 @@
 
 ```bash
 cd trian
-conda create -n qwen35-train python=3.11 -y
-conda activate qwen35-train
-pip install -U pip
-pip install -e .
+conda env create -f environment/llamafactory-core.yml
+
+conda run -n llamafactory-repro \
+    python scripts/verify_llamafactory_env.py
+```
+或者使用
+```bash
+cd train
+ bash scripts/create_llamafactory_env.sh llamafactory-repro
 ```
 
 如使用 GPU，请先安装与 CUDA/驱动匹配的 PyTorch。
