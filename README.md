@@ -4,6 +4,8 @@
 
 仓库地址：https://github.com/ZXX08/test
 
+完整 LLaMA-Factory 训练代码快照位于 [`trian/`](trian/README_zh.md)。
+
 ## 模型测试工具
 
 AirCopBench、O3DVQA 和 UrbanVideoBench 的测试代码已统一整理到

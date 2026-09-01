@@ -1,0 +1,63 @@
+### model
+model_name_or_path: /root/workspace-sj/saves/qwen3vl_stage1_aircopbench_o3dvqa
+image_max_pixels: 1048576
+video_max_pixels: 16384
+video_maxlen: 32
+trust_remote_code: true
+# flash_attn: fa2
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: true
+freeze_multi_modal_projector: false
+freeze_language_model: false
+deepspeed: examples/deepspeed/ds_z2_config.json
+
+### dataset
+# Stage 2: 全部数据集(不含 TDBench)+ GeoZero 回放
+#   GeoZero1_downsample = Instruct 降采样至 6 万(10%);GeoZero2 = Hard 全量(19947)
+dataset: [UrbanVideo, AVI-Math3, FloodNet, LIDA_train, LIDA_val,
+          AirCopBench1, AirCopBench2, AirCopBench3, AirCopBench4,
+          AVVG_train_det, AVVG_train, RSVG_train, RSVG_val,
+          DIOR_RSVG, VRSBench, DVGBench, O3DVQA, RefDrone, 
+          GeoZero1_downsample, GeoZero2,
+          # EmbodiedCity, AirVLN,
+          # OpenFly_airsim_16, OpenFly_airsim_18, OpenFly_airsim_23, OpenFly_airsim_26,
+          # OpenFly_airsim_gz, OpenFly_airsim_sh, OpenFly_gs_ecust, OpenFly_gs_nwpu01,
+          # OpenFly_gs_nwpu02, OpenFly_gs_sjtu01, OpenFly_ue_bigcity
+          ]
+template: qwen3_vl_nothink
+cutoff_len: 16384 
+preprocessing_num_workers: 16
+dataloader_num_workers: 8
+
+### output
+output_dir: /root/lnj/saves/qwen3vl_stage2
+logging_steps: 10
+save_steps: 2000
+save_total_limit: 1
+plot_loss: true
+overwrite_output_dir: false
+save_only_model: false
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-05
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+max_grad_norm: 1.0 
+gradient_checkpointing: true 
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500
